@@ -28,7 +28,8 @@ Automated the bug creation, assignment, and status update workflow in the Mantis
 
 ## 📸 Allure Test Report Screenshot
 
-![Allure Report](../allure_report.png)
+![allure_report](https://github.com/user-attachments/assets/466ef382-e71e-441a-a479-19d1bec9f890)
+
 
 ---
 
