@@ -1,19 +1,20 @@
 import pytest
 from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import Select, WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
 
 @pytest.fixture
 def driver():
     options = Options()
-    options.add_argument("--start-maximized")
-    service = Service()  # You can specify your chromedriver path if needed
+    options.add_argument('--headless')  # <- important for CI
+    options.add_argument('--no-sandbox')  # <- for Linux containers
+    options.add_argument('--disable-dev-shm-usage')  # <- for memory usage
+    options.add_argument('--disable-gpu')  # optional
+    service = Service()
     driver = webdriver.Chrome(service=service, options=options)
     yield driver
     driver.quit()
+
 
 def test_create_and_assign_bug(driver):
     wait = WebDriverWait(driver, 15)
