@@ -3,12 +3,12 @@
 Automated the bug creation, assignment, and status update workflow in the MantisBT bug tracking system using Selenium WebDriver, Pytest, and Allure Reporting.
 
 ---
+![Python](https://img.shields.io/badge/python-3.11-blue.svg?logo=python)
+![Selenium](https://img.shields.io/badge/selenium-4.20.0-brightgreen.svg?logo=selenium)
+![PyTest](https://img.shields.io/badge/pytest-8.1.1-yellow.svg?logo=pytest)
+![GitHub Actions](https://img.shields.io/badge/CI-GitHub_Actions-blue?logo=github)
+![HTML Report](https://img.shields.io/badge/report-html-orange)
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
-![PyTest](https://img.shields.io/badge/PyTest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Allure Report](https://img.shields.io/badge/Allure-ED2B88?style=for-the-badge&logo=allure&logoColor=white)
 
 
 ## 🚀 Project Features
