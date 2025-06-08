@@ -4,6 +4,13 @@ Automated the bug creation, assignment, and status update workflow in the Mantis
 
 ---
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
+![PyTest](https://img.shields.io/badge/PyTest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![Allure Report](https://img.shields.io/badge/Allure-ED2B88?style=for-the-badge&logo=allure&logoColor=white)
+
+
 ## 🚀 Project Features
 
 - ✅ Login to MantisBT
@@ -17,7 +24,7 @@ Automated the bug creation, assignment, and status update workflow in the Mantis
 
 ## 🛠️ Tech Stack
 
-- **Language:** Python
+- **Language:** python
 - **Automation Tool:** Selenium WebDriver
 - **Test Runner:** Pytest
 - **Reporting:** Allure
