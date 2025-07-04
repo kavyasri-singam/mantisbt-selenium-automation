@@ -72,4 +72,4 @@ mantisbt-automation/
 
 
 🙋‍♀️ Author
-KavyaSri Singam
+Anish Sheganti
